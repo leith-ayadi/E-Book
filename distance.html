@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="distance.css">
+    <title>Distance</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+    <h1> Converter Distance </h1>
+
+
+<p>  Choose what you want to convert </p>
+
+<div>
+  <!-- <label>Kilometers</label> -->
+  <select class="distaneTooBeChanged">
+    <option value="metre" id="0">metre</option>
+    <option value="kilometre" id="1">kilometre</option>
+    <option value="feet">feet</option>
+    <option value="inch">inch</option>
+
+  </select>
+  <select class="distanceToConvert">
+    <option  value="metre" id="m">metre</option>
+    <option value="kilometre">kilometre</option>
+    <option value="feet">feet</option>
+    <option value="inch">inch</option>
+
+  </select>
+  <input id="distance" type="number" placeholder="Choose a value
+  " >
+ 
+  
+  <p id="Converter"></p>
+  <p id="output"> </p>
+
+ <button id="check" onclick="conver()">check</button>
+
+
+ </div> 
+<!-- 
+
+
+
+
+<div>
+  <label>Kilometers</label>
+  <input id="inputKilometers" type="number" placeholder="Kilometers" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</div>
+<p>Feet: <span id="outputFeett"></span></p>
+
+
+
+<h2>feet to Meters</h2>
+<p>Type a value in the Feet field to convert the value to Meters:</p>
+
+<p>
+  <label>Feet</label>
+  <input id="inputFeet" type="number" placeholder="Feet" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Meters: <span id="outputMeterss"></span></p> --> 
+
+
+    
+</body>
+
+<script src="script.js"></script>
+</html>

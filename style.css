@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    padding: 1px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+.conv{
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+
+  }
+  #first{
+    text-align: center;
+
+  }
+  #second {
+    text-align: center;
+  }
+  #therd {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .btn {
+   margin-left: 47%;
+   background-color: #1abc9c;
+   color: aliceblue;
+   font-size: 16px;
+
+
+
+  }
+
+
+a{
+    text-decoration: none;
+}
+
+  .header img{
+    width: 100px;
+    position: left
+  }
+  body {
+    background-image: url(background2.jpg);
+    }
